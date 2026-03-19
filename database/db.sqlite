@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS revendas (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ nome TEXT,
+ telegram_id TEXT,
+ creditos INTEGER,
+ usados INTEGER DEFAULT 0,
+ expira INTEGER
+);
