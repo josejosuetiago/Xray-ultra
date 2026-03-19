@@ -23,7 +23,7 @@ echo "[+] Criando diretório..."
 mkdir -p $BASE_DIR
 
 echo "[+] Instalando Xray..."
-bash <(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh) @ install
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" install
 
 echo "[+] Instalando dependências Node..."
 cd $BASE_DIR
